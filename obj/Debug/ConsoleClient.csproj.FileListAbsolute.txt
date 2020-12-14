@@ -1,0 +1,10 @@
+C:\Users\natas\source\repos\ConsoleClient\bin\Debug\ConsoleClient.exe.config
+C:\Users\natas\source\repos\ConsoleClient\bin\Debug\ConsoleClient.exe
+C:\Users\natas\source\repos\ConsoleClient\bin\Debug\ConsoleClient.pdb
+C:\Users\natas\source\repos\ConsoleClient\obj\Debug\ConsoleClient.csproj.CoreCompileInputs.cache
+C:\Users\natas\source\repos\ConsoleClient\obj\Debug\ConsoleClient.exe
+C:\Users\natas\source\repos\ConsoleClient\obj\Debug\ConsoleClient.pdb
+C:\Users\natas\source\repos\ConsoleClient\obj\Debug\ConsoleClient.csprojAssemblyReference.cache
+C:\Users\natas\source\repos\ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\natas\source\repos\ConsoleClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\natas\source\repos\ConsoleClient\obj\Debug\ConsoleClient.csproj.CopyComplete
