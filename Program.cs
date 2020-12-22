@@ -35,11 +35,11 @@ namespace ConsoleClient
                 switch (x)
                 {
                     case 0:
-                        text = Program.GetText("https://localhost:44356/api/text/file");
+                        text = JsonConvert.SerializeObject(Program.GetText("https://localhost:5001/api/file"));
                         Console.WriteLine(text);
                         break;
                     case 1:
-                        text = Program.GetText("https://localhost:44356/api/text/db");
+                        text = JsonConvert.SerializeObject(Program.GetText("https://localhost:5001/api/db"));
                         Console.WriteLine(text);
                         break;
                     case 2:
@@ -55,7 +55,7 @@ namespace ConsoleClient
                 string answer = Console.ReadLine();
                 if (answer == "Y" || answer == "y")
                 {
-                    HttpWebRequest webrequest = (HttpWebRequest)WebRequest.Create("https://localhost:44356/api/text");
+                    HttpWebRequest webrequest = (HttpWebRequest)WebRequest.Create("https://localhost:5001/api/text");
                     webrequest.Method = "POST";
                     webrequest.ContentType = "application/json";
                     using (StreamWriter writer = new StreamWriter(webrequest.GetRequestStream()))
